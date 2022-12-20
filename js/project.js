@@ -208,7 +208,6 @@ function displayProduct() {
         odda += `<tr>
                     <td>${Company[i].name}</td>
                     <td>${Company[i].status}</td>
-                    <td>${Company[i].reason}</td>
                 </tr>`
     }
     document.getElementById("tablebody").innerHTML = odda ;
@@ -233,7 +232,6 @@ function searchProduct()
         odda += `<tr>
                     <td>${wantedCompany[i].name}</td>
                     <td>${wantedCompany[i].status}</td>
-                    <td>${wantedCompany[i].reason}</td>
                 </tr>`
     }
         document.getElementById("tablebody").innerHTML = odda ;
